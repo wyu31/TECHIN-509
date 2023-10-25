@@ -32,7 +32,7 @@ def flood_fill(input_board, old, new, x, y):
         return input_board
 
 # change the parameter
-modified_board = flood_fill(input_board=board, old=".", new="*", x=2, y=2)
+modified_board = flood_fill(input_board=board, old=".", new="@", x=2, y=2)
 
 for a in modified_board:
     print(a)
